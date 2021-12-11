@@ -96,7 +96,10 @@ function buildCharts(sample) {
 
         // Create the layout for the bar chart. 
         var barLayout = {
-            title: "Top 10 Bacteria Cultures Found",
+            title: {
+                text: 'Top 10 Bacteria Cultures Found',
+                font: { size: 28 }
+            },
             xaxis: { title: "Number of Cultures" },
             yaxis: {
                 tickmode: "array",
@@ -126,7 +129,10 @@ function buildCharts(sample) {
 
         // Create the layout for the bubble chart.
         var bubbleLayout = {
-            title: 'Bacteria Cultures Per Sample',
+            title: {
+                text: 'Bacteria Cultures Per Sample',
+                font: { size: 28 }
+            },
             // showlegend: false,
             height: 600,
             width: 800,
@@ -151,28 +157,25 @@ function buildCharts(sample) {
 
         // Create the trace for the gauge chart.
         var gaugeData = [{
-            domain: { x: [0, 1], y: [0, 1] },
+            // domain: { x: [0, 1], y: [0, 1] },
             value: washFreq,
-            title: { text: "Wash Frequency" },
+            title: { text: "Wash Frequency", font: { size: 28 } },
             type: "indicator",
             mode: "gauge+number",
-            guage: {
+            gauge: {
                 axis: {
                     range: [null, 10],
-                    // tickformatstops: {
-                    //     dtickrange: [0, 10]
-                    // },
                     tickmode: "array",
-                    // tickvals: [0, 2, 4, 6, 8, 10],
-                    // ticktext: [0, 2, 4, 6, 8, 10]
                 },
                 bar: { color: "black" },
+                borderwidth: 3,
+                bordercolor: "black",
                 steps: [
-                    { range: [0, 2] },
-                    { range: [2, 4] },
-                    { range: [4, 6] },
-                    { range: [6, 8] },
-                    { range: [8, 10] }
+                    { range: [0, 2], color: "red" },
+                    { range: [2, 4], color: "orange" },
+                    { range: [4, 6], color: "yellow" },
+                    { range: [6, 8], color: "lime" },
+                    { range: [8, 10], color: "green" }
                 ]
             }
         }];

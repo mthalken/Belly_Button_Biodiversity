@@ -74,7 +74,7 @@ function buildCharts(sample) {
             title: { text: "Wash Frequency" },
             type: "indicator",
             mode: "number+gauge",
-            guage: {
+            gauge: {
                 axis: {
                     range: [null, 9],
                     tickformatstops: {
