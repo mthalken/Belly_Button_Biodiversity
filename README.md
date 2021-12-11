@@ -23,16 +23,16 @@
 - Website Link: [here](https://mthalken.github.io/Belly_Button_Biodiversity/)
 
 - Webpage:
-![png](link)
+![png](https://github.com/mthalken/Belly_Button_Biodiversity/blob/main/static/images/main.png)
 
 - Bar Chart:
-![png](link)
+![png](https://github.com/mthalken/Belly_Button_Biodiversity/blob/main/static/images/bar.png)
 
 - Gauge Chart:
 ![png](link)
 
 - Bubble Chart:
-![png](link)
+![png](https://github.com/mthalken/Belly_Button_Biodiversity/blob/main/static/images/bubble.png)
 
 
 ## Summary
