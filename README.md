@@ -14,20 +14,15 @@
 - Source of data: [samples.json](https://github.com/mthalken/Belly_Button_Biodiversity/blob/main/web_page/samples.json)
 - Software: HTML, CSS, Bootstrap, Plotly, Javascript, Python 3.7.10, Conda 4.10.3, Visual Studio Code 1.60.2
 - Please see the code for the individual charts below:
-    - [Bubble Chart](https://github.com/mthalken/Belly_Button_Biodiversity/blob/main/web_page/bubble.js).
-    - [Bar Chart](link)
-    - [Gauge Chart](https://github.com/mthalken/Belly_Button_Biodiversity/blob/main/web_page/guage.js)
-- You can also see the refactored code [here](https://github.com/mthalken/Belly_Button_Biodiversity/blob/main/web_page/charts.js).
+    - [Bubble Chart](https://github.com/mthalken/Belly_Button_Biodiversity/blob/main/web_page/static/js/bubble.js).
+    - [Bar Chart](https://github.com/mthalken/Belly_Button_Biodiversity/blob/main/web_page/static/js/bar.js)
+    - [Gauge Chart](https://github.com/mthalken/Belly_Button_Biodiversity/blob/main/web_page/static/js/guage.js)
+- You can also see the refactored code [here](https://github.com/mthalken/Belly_Button_Biodiversity/blob/main/web_page/static/js/charts.js).
 
 ## Results 
-### The analysis
-- What are two conclusions you can draw?
+Website Link: [here](link)
 
-- What can you conclude?
 
-- What are some limitations of this dataset?
-
-- What are some other possible tables and/or graphs that we could create?
 
 ## Summary
 
