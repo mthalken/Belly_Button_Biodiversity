@@ -97,7 +97,7 @@ function buildCharts(sample) {
         // Create the layout for the bar chart. 
         var barLayout = {
             title: "Top 10 Bacteria Cultures Found",
-            xaxis: {},
+            xaxis: { title: "Number of Cultures" },
             yaxis: {
                 tickmode: "array",
                 tickvals: [otuIds.slice(0, 10).map(id => "OTU " + id)]
