@@ -97,12 +97,10 @@ function buildCharts(sample) {
         // Create the layout for the bar chart. 
         var barLayout = {
             title: "Top 10 Bacteria Cultures Found",
-            xaxis: { title: "Number of Bacteria" },
+            xaxis: {},
             yaxis: {
                 tickmode: "array",
-                tickvals: [yticks],
-                ticktext: [yticks],
-                yref: yticks
+                tickvals: [otuIds.slice(0, 10).map(id => "OTU " + id)]
             }
         };
         console.log(barLayout)
@@ -128,11 +126,12 @@ function buildCharts(sample) {
 
         // Create the layout for the bubble chart.
         var bubbleLayout = {
-            title: 'Bubble Chart',
+            title: 'Bacteria Cultures Per Sample',
             // showlegend: false,
             height: 600,
             width: 800,
             yaxis: { automargin: true },
+            xaxis: { title: "OTU ID" },
             hovermode: "closest"
         };
 
@@ -156,24 +155,24 @@ function buildCharts(sample) {
             value: washFreq,
             title: { text: "Wash Frequency" },
             type: "indicator",
-            mode: "number+gauge",
+            mode: "gauge+number",
             guage: {
                 axis: {
                     range: [null, 10],
-                    tickformatstops: {
-                        dtickrange: [0, 10]
-                    },
+                    // tickformatstops: {
+                    //     dtickrange: [0, 10]
+                    // },
                     tickmode: "array",
-                    tickvals: [0, 2, 4, 6, 8, 10],
-                    ticktext: [0, 2, 4, 6, 8, 10]
+                    // tickvals: [0, 2, 4, 6, 8, 10],
+                    // ticktext: [0, 2, 4, 6, 8, 10]
                 },
                 bar: { color: "black" },
                 steps: [
-                    { range: [0, 2], color: "red" },
-                    { range: [2, 4], color: "orange" },
-                    { range: [4, 6], color: "yellow" },
-                    { range: [6, 8], color: "lime" },
-                    { range: [8, 10], color: "green" }
+                    { range: [0, 2] },
+                    { range: [2, 4] },
+                    { range: [4, 6] },
+                    { range: [6, 8] },
+                    { range: [8, 10] }
                 ]
             }
         }];

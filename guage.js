@@ -76,7 +76,7 @@ function buildCharts(sample) {
             mode: "number+gauge",
             guage: {
                 axis: {
-                    range: [null, 10],
+                    range: [null, 9],
                     tickformatstops: {
                         dtickrange: [0, 10]
                     },
