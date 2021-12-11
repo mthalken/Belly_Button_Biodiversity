@@ -30,7 +30,9 @@
 ![png](https://github.com/mthalken/Belly_Button_Biodiversity/blob/main/static/images/bar.png)
 
 - Gauge Chart:
+
 ![png](https://github.com/mthalken/Belly_Button_Biodiversity/blob/main/static/images/guage.png)
 
 - Bubble Chart:
+
 ![png](https://github.com/mthalken/Belly_Button_Biodiversity/blob/main/static/images/bubble.png)
