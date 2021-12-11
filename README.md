@@ -11,10 +11,13 @@
 6. Using bootstrap and javascript format and edit the page to be more user friendly and apealing. 
 
 ## Resources
-- Source of data: [samples.json](https://github.com/mthalken/Belly_Button_Biodiversity/blob/main/samples.json)
+- Source of data: [samples.json](https://github.com/mthalken/Belly_Button_Biodiversity/blob/main/web_page/samples.json)
 - Software: HTML, CSS, Bootstrap, Plotly, Javascript, Python 3.7.10, Conda 4.10.3, Visual Studio Code 1.60.2
-- Please see the refactored code [here]().
-- You can also see the preliminary code [here]().
+- Please see the code for the individual charts below:
+    - [Bubble Chart](https://github.com/mthalken/Belly_Button_Biodiversity/blob/main/web_page/bubble.js).
+    - [Bar Chart](link)
+    - [Gauge Chart](https://github.com/mthalken/Belly_Button_Biodiversity/blob/main/web_page/guage.js)
+- You can also see the refactored code [here](https://github.com/mthalken/Belly_Button_Biodiversity/blob/main/web_page/charts.js).
 
 ## Results 
 ### The analysis
